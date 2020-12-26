@@ -1,0 +1,54 @@
+.about-section {
+    margin: auto 10px;
+}
+
+.about-div {
+    margin-top: 50px;
+
+    h1 {
+        color: $blue;
+        margin: 20px;
+        font-weight: 400;
+        padding-bottom: 10px;
+        border-bottom: 2px solid $green;
+
+        @media (max-width: 765px) {
+            padding-bottom: 5px;
+        }
+    }
+    
+    p {
+        color: $blue;
+        font-size: 18px;
+    }
+
+    .image-div-2 {
+        margin-top: 20px;
+    }
+}
+
+.text-div {
+    display: flex;
+
+    @media (max-width: 765px) {
+        display: block;
+    }
+
+    .text-left, .text-middle, .text-right {
+        background: #8ED0B9;
+        border-radius: 20px;
+        padding: 5px 20px;
+    }
+
+    .text-middle {
+        margin: 0 20px;
+
+        @media (max-width: 900px) {
+            margin: 0px 10px;
+        }
+
+        @media (max-width: 765px) {
+            margin: 10px 0;
+        }
+    }
+}

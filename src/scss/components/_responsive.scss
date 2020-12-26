@@ -1,0 +1,41 @@
+/* On screens that are 768px or higher, apply the following styles: */
+@media (min-width: 768px) {
+    .whatsapp-icon {
+        display: none;
+    }
+}
+
+/* On screens that are 767px or lower, apply the following styles: */
+@media (max-width: 767px) {
+    .navigation {
+        padding: 0 25px;
+
+        .menu, .contact {
+            display: none;
+        }
+    }
+
+    .home-div {
+        .image-div {
+            background-size: 120vw;
+        }
+    }
+}
+
+/* On screens that are 576px or higher, apply the following styles: */
+
+/* On screens that are 575px or lower, apply the following styles: */
+@media (max-width: 575px) {
+    
+    .navigation {
+        height: $headerHeightMobile;
+
+        .logo svg {
+            height: 50px;
+        }
+    }
+
+    .home-div {
+        margin-top: 70px;
+    }
+}
